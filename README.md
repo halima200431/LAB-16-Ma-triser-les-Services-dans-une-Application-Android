@@ -186,28 +186,11 @@ Résultat attendu :
 - Une notification persistante apparaît.
 - Le service passe en mode Foreground Service.
 
-```text
-Capture à ajouter : screenshots/demo_02_service_demarre.png
-```
 
----
 
 ### 9.3 Notification persistante
 
 La notification affiche le temps écoulé en direct.
-
-Exemple :
-
-```text
-Chronomètre en cours
-Temps : 00:12
-```
-
-```text
-Capture à ajouter : screenshots/demo_03_notification.png
-```
-
-Cette notification prouve que le service fonctionne en arrière-plan.
 
 ---
 
@@ -221,9 +204,7 @@ Résultat attendu :
 - Le chronomètre continue.
 - La notification reste visible.
 
-```text
-Capture à ajouter : screenshots/demo_04_app_fermee.png
-```
+
 
 ---
 
@@ -237,11 +218,7 @@ Résultat attendu :
 - Le chronomètre ne revient pas à zéro.
 - La communication Activity-Service fonctionne correctement.
 
-```text
-Capture à ajouter : screenshots/demo_05_retour_application.png
-```
 
----
 
 ### 9.6 Arrêt du service
 
@@ -254,9 +231,7 @@ Résultat attendu :
 - Le thread de fond est arrêté.
 - Le service est détruit proprement.
 
-```text
-Capture à ajouter : screenshots/demo_06_service_arrete.png
-```
+
 
 ---
 
